@@ -1,0 +1,55 @@
+#joinn{
+	position: absolute;
+    margin-top: -250px;
+    margin-left: 250px;
+    width: 40%;
+    height: 200px;
+	animation: move 3s linear;
+}
+@keyframes move{
+	0%{
+	    transform: translate(15px);
+	    opacity: 0;
+	}
+	25%{
+		transform: translate(10px);
+	    opacity: 0.4;
+	}
+	50%{
+		transform: translate(5px);
+	    opacity: 0.8;
+	}
+	100%{
+	    transform: translate(0);
+	    opacity: 1;
+	}
+}
+.joinn img{
+	margin-top: 83px;
+	width: 100%;
+	height: 250px;
+}
+.puhui h3{
+	margin-top: 6%;
+	margin-left: 40%;
+}
+#u64{
+	width: 70%;
+	
+	margin: 40px;
+	padding: 40px;
+	margin-left: 15%;
+}
+#u64 p{
+	padding: 10px;
+}
+.welinain{
+	font-weight: bold;
+	font-size: 34px;
+}
+.mtop40{
+	font-family: "微软雅黑";
+	padding: 10px;
+	font-weight: bold;
+	
+}

@@ -1,0 +1,182 @@
+body,div,h1,h2,h3,h4,h5,h6,img,p,nav,ul,li,span{
+	padding: 0;
+	margin: 0;
+}
+.banner{
+	width: 100%;
+	margin-top: 83px;
+}
+.banner img:nth-of-type(1){
+	width: 100%;
+	position: relative;
+}
+.banner img:nth-of-type(2){
+	position: absolute;
+	top: 133px;
+	right: 200px;
+	width: 35%;
+}
+#jiazhi{
+	animation: move 3s linear  infinite ;
+}
+@keyframes move{
+	0%{
+	    transform: translate(-15px);
+	    opacity: 0;
+	}
+	25%{
+		transform: translate(-10px);
+	    opacity: 0.4;
+	}
+	50%{
+		transform: translate(-5px);
+	    opacity: 0.8;
+	}
+	100%{
+	    transform: translate(0);
+	    opacity: 1;
+	}
+}
+.person{
+	text-align: center;
+	width: 100%;
+	height: 173px;
+}
+.person .per-con{
+	width: 80%;
+	padding: 3% 0;
+	margin: 0 auto;
+}
+.person .per-con h3{
+	font-size: 24px;
+	font-family: "微软雅黑";
+}
+.person .per-con h3:nth-of-type(2){
+	margin-top: 5px;
+}
+.person p{
+	border-bottom: 1px solid #3bbe7a;
+	width: 30px;
+	margin: 0 auto;
+}
+.medical{
+	background-color: rgba(222,223,212,0.3);
+	height: 900px;
+	padding-top: 3%;
+    padding-bottom: 3%;
+}
+.medical .container .row>p,.health-management .container>p{
+	color: #4ec487;
+	text-align: center;
+	font-size: 18px;
+    margin-bottom: 2%;
+}
+.medical .container .row .tcenter{
+	text-align: center;
+	height: 380px;
+}
+.medical .container .row .circular{
+	position: relative;
+	width: 260px;
+	height: 260px;
+	border-radius: 50%;
+	margin: 0 auto;
+	/*background: #3bbe7a;*/
+	/*transform: translate(20px);*/
+}
+.medical .container .row .col-md-6 .circular-img{
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	border-radius: 50%;
+	width: 235px;
+	height: 235px;
+	line-height: 235px;
+    text-align: center;
+}
+.medical .container .row .col-md-6:nth-of-type(1) .circular-img{
+	background: url(../img/valuefocus_ico1.jpg);
+	background-size: 100%;
+}
+.medical .container .row .col-md-6:nth-of-type(2) .circular-img{
+	background: url(../img/valuefocus_ico2.jpg);
+	background-size: 100%;
+}
+.medical .container .row .col-md-6:nth-of-type(3) .circular-img{
+	background: url(../img/valuefocus_ico3.jpg);
+	background-size: 100%;
+}
+.medical .container .row .col-md-6:nth-of-type(4) .circular-img{
+	background: url(../img/valuefocus_ico4.jpg);
+	background-size: 100%;
+}
+.medical .container .row .circular-img span{
+	color: white;
+	font-size: 50px;
+}
+.medical .container .row .heather{
+	margin-top: 30px;
+}
+.medical .container .row h3{
+	color: #333;
+	font-size: 18px;
+}   
+.medical .container .row .heather p{
+	color: #666;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	margin-top: 10px;
+}  
+.health-management{
+	height: 480px;
+	background-color: rgba(222,223,212,0.3);
+	padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 80px;
+} 
+.health-management .container .row .guanli{
+	text-align: center;
+	margin-top: 30px;
+}
+.health-management .container .row img{
+	width: 543px;
+	height: 233px;
+}
+.health-management .container .row .guanli h4{
+	font-size: 18px;
+	margin-bottom: 15px;
+	line-height: 24px;
+} 
+.health-management .container .row .guanli p{
+	font-family: "微软雅黑";
+	color: #666;
+}
+.container .medical-service{
+	text-align: center;
+	margin: 80px 0;
+}
+.container .medical-service h3{
+	color: #333;
+	font-family: "微软雅黑";
+}
+.container .medical-service p:nth-of-type(1){
+	border-bottom: 1px solid #3bbe7a;
+	width: 30px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.container .medical-service p:nth-of-type(2){
+	margin-top: 20px;
+	line-height: 25px;
+	color: #333;
+	font-family: "微软雅黑";
+}
+.container .map-chengdu{
+	margin: 0 auto;
+	height: 550px;
+}
+.container .map-chengdu img{
+	width: 100%;
+	height: 480px;
+}

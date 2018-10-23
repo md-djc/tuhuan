@@ -1,0 +1,122 @@
+div,body,p,h1,h2,h3,h4,img,input,textarea,a{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.map{
+	margin-top: 83px;
+}
+.person{
+	text-align: center;
+	width: 100%;
+}
+.person .per-con{
+	width: 80%;
+	padding: 3% 0;
+	margin: 0 auto;
+}
+.person h3{
+	font-size: 24px;
+	font-family: "微软雅黑";
+	margin-bottom: 20px;
+}
+.person h3:nth-of-type(2),.person h3:nth-of-type(3){
+	margin-top: 5px;
+	margin-bottom: -5px;
+	font-family: "微软雅黑";
+	font-size: 14px
+}
+
+.person p{
+	border-bottom: 1px solid #3bbe7a;
+	width: 30px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.tubiao{
+	text-align: center;
+	width: 100%;
+}
+.tubiao .container{
+	margin: 0 auto;
+	border-bottom: 1px solid #f0f0f0;
+	width: 80%;
+}
+.tubiao .container .yuan{
+	width: 110px;
+	height: 110px;
+	position: relative;
+	background: #4ec487;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.tubiao .container .yuan1{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	width: 60px;
+	height: 60px;
+	background: white;
+	border-radius: 50%;
+}
+.tubiao .container img{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 40px;
+	height: 40px;
+}
+.tubiao .container .row h4{
+	margin-bottom: 20px;
+}
+.tubiao .container .row p{
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+.person .per-com{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 70px;
+	overflow: hidden;
+}
+.left-img{
+	width: 35%;
+	float: left;
+	margin-top: 50px;
+}
+.left-img img{
+	width: 100%;
+}
+.right-input{
+	width: 60%;
+	margin-left: 5%;
+	float: left;
+	margin-top: 50px;
+}
+.right-input input{
+	width: 50%;
+	margin-bottom: 30px;
+}
+.right-input button{
+	width: 120px;
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+.right-input input:focus,.right-input textarea:focus{
+	border: 1px solid #4EC487;
+}
+.right-input textarea{
+	height: 150px;
+}
+ .right-input button{
+	float: left;
+	background: #39b977;
+	border: none;
+	color: white;
+	height: 40px;
+}
